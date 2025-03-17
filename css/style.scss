@@ -785,6 +785,23 @@ a:focus {
   }
 }
 
+.blog-item-content{
+  h2{
+    font-weight: 600;
+    font-size: 38px;
+  }
+}
+
+.quote {
+  font-size: 22px;
+  color: #223a66;
+  padding: 40px;
+  font-style: italic;
+  border-left: 5px solid #e12454;
+  margin: 25px 0px;
+}
+
+
 // end info section
 
 /* footer section*/
