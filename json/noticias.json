@@ -1,0 +1,15 @@
+[
+  { "id":1,
+    "titulo": "Claves para la Experiencia del Colaborador en la Era Digital",
+    "contenido": "content/notice1.html",
+    "importante": "Un onboarding efectivo es una inversión que genera grandes beneficios a largo plazo. Al crear una experiencia positiva para los nuevos empleados, las empresas pueden aumentar su compromiso, productividad y retención, construyendo una base sólida para el éxito futuro",
+    "img": "images/blog/notice1.jpeg",
+    "fecha": "15 Marzo 2025"
+  },
+  { "id":2,
+    "titulo": "La Clave para un Entorno Laboral Armonioso y Productivo",
+    "contenido": "content/notice2.html",
+    "importante": "Al invertir en el desarrollo de la inteligencia emocional, las empresas pueden crear un entorno laboral más armonioso, productivo y saludable, donde los empleados se sientan valorados, motivados y comprometidos",
+    "img": "images/blog/notice2.jpeg",
+    "fecha": "17 Marzo 2025" }
+]
