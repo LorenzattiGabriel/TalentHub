@@ -1,0 +1,233 @@
+.files-body {
+    font-family: 'Helvetica', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.files-container {
+    max-width: 900px;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    padding: 40px 20px;
+    margin-top: 40px;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.files-image {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.files-image img {
+    width: 100%;
+    max-width: 300px;
+}
+
+.files-form-section {
+    flex: 1;
+}
+
+.files-form-section h1 {
+    color: #6c3df4;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.files-form-section p {
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+.files-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.files-form input,
+.files-form select,
+.files-form button {
+    font-size: 15px;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+.files-form button {
+    background-color: #6c3df4;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.files-form button:hover {
+    background-color: #4c2dc0;
+}
+
+.files-check-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.files-check-item::before {
+    content: '✔️';
+}
+
+.button-file {
+    padding: 0;
+    background-color: transparent;
+    border: 0;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+
+.files-input {
+    width: 100%;
+    padding: 12px 16px;
+    font-size: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    outline: none;
+    box-sizing: border-box;
+    transition: border-color 0.3s, box-shadow 0.3s;
+    margin-bottom: 15px;
+}
+
+.files-input:focus {
+    border-color: #6c3df4;
+    box-shadow: 0 0 0 2px rgba(108, 61, 244, 0.2);
+}
+
+file-body {
+    background-color: #1a2a4b; /* Un azul oscuro como el de tu imagen */
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Asegura que ocupe toda la altura de la ventana */
+    margin: 0;
+    color: #ffffff; /* Texto blanco para contrastar */
+}
+
+/* Contenedor principal del formulario */
+.file-container {
+    background-color: #1a2a4b; /* Mismo fondo para el contenedor */
+    padding: 40px;
+    border-radius: 8px;
+    text-align: center;
+    max-width: 500px;
+    width: 90%;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3); /* Sombra sutil para profundidad */
+}
+
+.file-form-header .file-title { /* Usamos la clase específica para el título */
+    font-size: 1.8em;
+    margin-bottom: 30px;
+    color: #ffffff;
+    line-height: 1.3;
+}
+
+/* Estilos para cada grupo de formulario (campo + posible etiqueta) */
+.file-form-group {
+    margin-bottom: 25px; /* Espacio entre los campos */
+}
+
+/* Estilos para los campos de entrada (input) */
+.file-download-form input[type="text"],
+.file-download-form input[type="email"] {
+    width: calc(100% - 20px); /* Ocupa casi todo el ancho del contenedor del campo */
+    padding: 10px 0; /* Relleno vertical, no horizontal */
+    border: none; /* Elimina todos los bordes */
+    border-bottom: 2px solid #5a6d8d; /* Borde inferior para el efecto "renglón" */
+    background-color: transparent; /* Fondo transparente */
+    color: #e0e0e0; /* Color de texto claro */
+    font-size: 1.1em;
+    outline: none; /* Elimina el contorno al hacer clic */
+    transition: border-color 0.3s ease-in-out; /* Transición suave para el borde */
+    text-align: center; /* Centra el texto en el campo */
+}
+
+/* Estilo para el placeholder */
+.file-download-form input::placeholder {
+    color: #a0a0a0; /* Color más claro para el placeholder */
+    opacity: 0.8; /* Un poco de transparencia */
+}
+
+/* Efecto al enfocar (focus) el campo */
+.file-download-form input[type="text"]:focus,
+.file-download-form input[type="email"]:focus {
+    border-bottom: 2px solid #66b2ff; /* Borde inferior azul más vibrante al enfocar */
+}
+
+/* Estilos para el botón de descarga */
+.file-download-button {
+    background-color: #4CAF50; /* Un verde vibrante */
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1em;
+    margin-top: 20px;
+    transition: background-color 0.3s ease; /* Transición suave para el fondo */
+}
+
+.file-download-button:hover {
+    background-color: #45a049; /* Un verde un poco más oscuro al pasar el ratón */
+}
+
+
+input[type="text"],
+input[type="email"],
+input[type="number"] {
+    width: 100%;
+    padding: 12px 16px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: 0.3s;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 0 2px rgba(0,123,255,0.2);
+    outline: none;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: background-color 0.3s ease;
+    margin-top: 12px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
