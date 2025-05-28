@@ -194,7 +194,7 @@
   document.addEventListener("DOMContentLoaded", function() {
     let noticias = [];
     let currentPage = 1;
-    const noticiasPorPagina = 3;
+    const noticiasPorPagina = 6;
     const blogContainer = document.getElementById("blog-container");
     const prevButton = document.getElementById("prevPage");
     const nextButton = document.getElementById("nextPage");
@@ -208,7 +208,7 @@
 
       noticiasPagina.forEach(noticia => {
         const noticiaHTML = `
-        <div class="col-md-6 ">
+        <div class="col-md-4 ">
           <div class="box" style="align-content: center" >
             <div class="blog-item">
               <div class="blog-thumb">
